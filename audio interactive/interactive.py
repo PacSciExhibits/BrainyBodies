@@ -27,7 +27,7 @@ def check_if_already_running():
 check_if_already_running()
 
 
-# This method finds which port belongs to the arduino
+# This method finds which port the arduino is plugged into, so it can be plugged into any port
 def get_arduino_port():
     ports = list(serial.tools.list_ports.comports())
     for p in ports:
