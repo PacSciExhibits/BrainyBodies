@@ -15,12 +15,14 @@ Within the python script, check if an instance of that script is already running
 
 Steps
 
-Section 0 (optional): put your python script in a folder called `interactive` on the desktop
+
+## Section 0 (optional): put your python script in a folder called `interactive` on the desktop
 For the purposes of this tutorial, I will assume your python script is in a folder called `interactive` on the Desktop, and your Raspberry Pi username is `pi`.
 
 Full folder path: `/home/pi/Desktop/interactive`
 
-Section 1: Create the launcher shell script (.sh file)
+
+## Section 1: Create the launcher shell script (.sh file)
 Open the terminal (command line), the black rectangle icon next to the file explorer icon on the taskbar at the top of the screen.
 Navigate to your python script’s directory (which you can find in the navigation bar of the file explorer) by typing:
 
@@ -44,7 +46,8 @@ cd /
 (Where `script_name.py` is replaced with the filename of your python file.
 Ctrl-X, then Return to save and exit.
 
-Section 2: make the .sh file executable
+
+## Section 2: make the .sh file executable
 Make sure you’re navigated to /home/pi/Desktop/interactive (if not, use `cd /home/pi/Desktop/interactive ` again).
 
 Make the launcher script executable:
@@ -54,7 +57,7 @@ Now test it by typing:
 `sh launcher.sh`
 
 
-Section 3: add method to your python file to check for other instances of the same file
+## Section 3: add method to your python file to check for other instances of the same file
 
 Add the following imports and method to the beginning of your python script: (source: ChatGPT 😳)
 
@@ -88,7 +91,7 @@ check_if_already_running()
 ```
 
 
-Section 4: use crontab to run launcher.sh every minute
+## Section 4: use crontab to run launcher.sh every minute
 
 Crontab is confusing, but it’s pretty powerful. By default it runs tasks in a non-graphical environment, so it won’t display anything on the desktop. You’ll need to specify the display environment.
 
@@ -119,7 +122,7 @@ For the audio interactive, additional code is needed, so use the following line:
 Ctrl-X, `Y`(es), Return to save and exit the crontab editor. 
 
 
-Section 5: test!
+## Section 5: test!
 
 Wait for the Raspberry Pi’s clock to turn over to the next minute.
 
