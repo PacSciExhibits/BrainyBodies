@@ -13,7 +13,6 @@ Overview:
 Use `crontab`, Linux’s task scheduling tool, to run, every minute, an `sh` file (shell script) that launches your python script.
 Within the python script, check if an instance of that script is already running. If it is, quit out of the script.
 
-Steps
 
 
 ## Section 0 (optional): put your python script in a folder called `interactive` on the desktop
