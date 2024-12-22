@@ -1,4 +1,6 @@
 # Auto-Running Python Scripts on Raspberry Pi, For Most Purposes Which Python on a Raspberry Pi Might Be Used at Pacific Science Center: A Guide
+### Oliver Norred, 2024
+#### olivernorred@gmail.com
 
 Note: `text within these back-quote marks is code. Don’t include the back-quotes`
 ```
