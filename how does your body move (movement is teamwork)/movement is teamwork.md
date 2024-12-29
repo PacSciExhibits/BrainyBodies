@@ -9,7 +9,7 @@ Modified for a horizontal display from the originals:
 
 ^ These are built for vertical screens, as shown in the below article from Vanderbilt.
 
-I opened them in Unity and changed the resolution to fit our wall, then exported them to auto-start when the PC reboots. [How to autostart programs on Windows 10](https://support.microsoft.com/en-us/windows/configure-startup-applications-in-windows-115a420a-0bff-4a6f-90e0-1934c844e473)
+I opened them in Unity and changed the resolution to fit our wall, then exported them to auto-start when the PC reboots. [Configure startup applications in Windows](https://support.microsoft.com/en-us/windows/configure-startup-applications-in-windows-115a420a-0bff-4a6f-90e0-1934c844e473)
 
 
 
