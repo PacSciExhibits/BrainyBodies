@@ -1,0 +1,2 @@
+2024-11-19 10:32:08,556 ERROR [orbbec.ni.WmfColorStream] WMF device has no compatible stream profiles.
+2024-11-19 10:32:08,556 ERROR [orbbec.ni.device_streamset] could not open uvc-based color stream
